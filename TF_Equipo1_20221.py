@@ -125,6 +125,8 @@ if selected == 'Inicio':
                  Por ello, es importante realizar un monitoreo de calidad del aire para conocer las concentraciones de los contaminantes atmosféricos y mantenrlos por dejabo de los Estándares de Calidad Ambiental para Aire.
                  """)
         st.write("**Fuente:** Organización Panamericana de la Salud")
+        st.write("Calidad del aire - OPS/OMS | Organización Panamericana de la Salud. (2018). Paho.org. https://www.paho.org/es/temas/calidad-aire")
+
     with col2:
         st.write("Según la Organización Mundial de la Salud, 249.000 muertes prematuras podrían ser reconocidas por la contaminación del aire ambiente")
         #primera animación#############################################################   
