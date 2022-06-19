@@ -3,13 +3,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 import datetime
-#import folium
 import json
 import time
 import requests
 import base64
 from IPython.lib.display import FileLink
-#from streamlit_folium import st_folium
 from streamlit_option_menu import option_menu
 from streamlit_lottie import st_lottie
 from streamlit_lottie import st_lottie_spinner
@@ -111,7 +109,6 @@ with st.sidebar:
 ###############################################################################
 ###############################################################################    
 if selected == 'Inicio':
-    #st.title(f"You have selected {selected}")
 ###############################################################################
 #ENCABEZADO DE LA PÁGINA#######################################################
     st.title('Calidad del aire de la Municipalidad de Miraflores')
