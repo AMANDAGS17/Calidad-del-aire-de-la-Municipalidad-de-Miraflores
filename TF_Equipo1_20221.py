@@ -437,7 +437,8 @@ if selected == 'Reporte 2021':
         st.markdown(
             f'<img src="data:image/gif;base64,{data_url}" alt="cat gif">',
             unsafe_allow_html=True,
-        )    
+        )
+     st.write("**Fuente:** https://www.minam.gob.pe/wp-content/uploads/2016/07/RM-N°-181-2016-MINAM.pdf")
 #BOTONES 2######################################################################
     lista2=('Enero AE','Enero AJ','Febrero AJ','Marzo AE')
     options = st.multiselect('¿Qué mes desea ver? (eliga solo un mes)', lista2)   
