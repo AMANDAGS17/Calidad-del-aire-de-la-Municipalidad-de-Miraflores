@@ -160,7 +160,7 @@ if selected == 'Reporte 2020':
     
     with col1:
         st.subheader("Buena")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_buena.gif", "rb")
+        file_ = open("qairito_buena.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -171,7 +171,7 @@ if selected == 'Reporte 2020':
         )     
     with col2:
         st.subheader("Moderado")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+        file_ = open("qairito_moderada.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -182,7 +182,7 @@ if selected == 'Reporte 2020':
         )     
     with col3:
         st.subheader("Mala")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+        file_ = open("qairito_mala.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -193,7 +193,7 @@ if selected == 'Reporte 2020':
         )    
     with col4:
         st.subheader("Cuidado")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_cuidado.gif", "rb")
+        file_ = open("qairito_cuidado.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -212,7 +212,7 @@ if selected == 'Reporte 2020':
 #gif1#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -229,7 +229,7 @@ if selected == 'Reporte 2020':
 #gif2#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -246,7 +246,7 @@ if selected == 'Reporte 2020':
 #gif3#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -263,7 +263,7 @@ if selected == 'Reporte 2020':
 #gif4#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -280,7 +280,7 @@ if selected == 'Reporte 2020':
 #gif5#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -297,7 +297,7 @@ if selected == 'Reporte 2020':
 #gif6#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -314,7 +314,7 @@ if selected == 'Reporte 2020':
 #gif7#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -331,7 +331,7 @@ if selected == 'Reporte 2020':
 #gif8#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -348,7 +348,7 @@ if selected == 'Reporte 2020':
 #gif9#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -365,7 +365,7 @@ if selected == 'Reporte 2020':
 #gif10#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -396,7 +396,7 @@ if selected == 'Reporte 2021':
     
     with col1:
         st.subheader("Buena")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_buena.gif", "rb")
+        file_ = open("qairito_buena.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -407,7 +407,7 @@ if selected == 'Reporte 2021':
         )     
     with col2:
         st.subheader("Moderado")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+        file_ = open("qairito_moderada.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -418,7 +418,7 @@ if selected == 'Reporte 2021':
         )     
     with col3:
         st.subheader("Mala")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+        file_ = open("qairito_mala.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -429,7 +429,7 @@ if selected == 'Reporte 2021':
         )    
     with col4:
         st.subheader("Cuidado")
-        file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_cuidado.gif", "rb")
+        file_ = open("qairito_cuidado.gif", "rb")
         contents = file_.read()
         data_url = base64.b64encode(contents).decode("utf-8")
         file_.close()
@@ -447,7 +447,7 @@ if selected == 'Reporte 2021':
 #gif11#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_moderada.gif", "rb")
+            file_ = open("qairito_moderada.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -464,7 +464,7 @@ if selected == 'Reporte 2021':
 #gif12#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -481,7 +481,7 @@ if selected == 'Reporte 2021':
 #gif13#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_buena.gif", "rb")
+            file_ = open("qairito_buena.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
@@ -498,7 +498,7 @@ if selected == 'Reporte 2021':
 #gif14#########################################################################
         col1, col2, col3= st.columns(3)
         with col2:        
-            file_ = open("C:\Spyder (anaconda3) EJERGS\qairito_mala.gif", "rb")
+            file_ = open("qairito_mala.gif", "rb")
             contents = file_.read()
             data_url = base64.b64encode(contents).decode("utf-8")
             file_.close()
