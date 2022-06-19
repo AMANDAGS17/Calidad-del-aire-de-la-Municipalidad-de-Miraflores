@@ -137,7 +137,7 @@ if selected == 'Inicio':
     video_file = open('Cómo afecta la contaminación del aire a nuestro cuerpo.mp4', 'rb')
     video_bytes = video_file.read()
     st.video(video_bytes)
-    st.write("**Fuente**: BBC News Mundo, 2017. URL: https://youtu.be/zvlHBfSBcKk")   
+    st.write("**Fuente**: BBC News Mundo. (2017). https://youtu.be/zvlHBfSBcKk")   
 ###############################################################################
 ###############################################################################         
 if selected == 'Reporte 2020':       
