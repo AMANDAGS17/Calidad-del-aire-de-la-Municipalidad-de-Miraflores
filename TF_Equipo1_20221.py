@@ -152,7 +152,7 @@ if selected == 'Reporte 2020':
     st.write("""Av. Del Ejército (**AE**), 
              Av. José de la Riva Agüero (**AJ**), 
              Av. Gral. Mendiburu (**AG**), 
-             Av. Enrique Meiggs (**AE**), 
+             Av. Enrique Meiggs (**AM**), 
              Tontódromo PUCP (**TP**)
              """)
 #gif0##########################################################################
@@ -383,13 +383,14 @@ if selected == 'Reporte 2021':
     #st.title(f"{selected}")
 #MAPA MIRAFLORES###############################################################
     st.subheader("Puntos de muestreo")    
-    st.write("**Se tomaron 2 puntos de muestreo, Av. Del Ejército y Av. José de la Riva Agüero**")
+    st.write("**Se tomaron 3 puntos de muestreo, Av. Del Ejército, Av. José de la Riva Agüero y Av. Enrique Meiggs**")
     latlon=pd.read_csv("lat_lon_2021.csv",sep=";")
     df = pd.DataFrame(latlon,columns=['lat', 'lon'])  
     st.map(df)
     st.write("**Leyenda**")
     st.write("""Av. Del Ejército (**AE**), 
-             Av. José de la Riva Agüero (**AJ**)
+             Av. José de la Riva Agüero (**AJ**),
+             Av. Enrique Meiggs (**AM**)
              """)
 #gif0##########################################################################
     st.subheader("Escala según ECA")    
@@ -441,7 +442,7 @@ if selected == 'Reporte 2021':
         )
     st.write("**Fuente:** https://www.minam.gob.pe/wp-content/uploads/2016/07/RM-N°-181-2016-MINAM.pdf")
 #BOTONES 2######################################################################
-    lista2=('Enero AE','Enero AJ','Febrero AJ','Marzo AE')
+    lista2=('Enero AE','Enero AJ','Febrero AJ','Marzo AM')
     options = st.multiselect('¿Qué mes desea ver? (eliga solo un mes)', lista2)   
 ################################################################################
     if 'Enero AE' in options:
@@ -495,7 +496,7 @@ if selected == 'Reporte 2021':
 ###############################################################################
         cod_grafic_descargar("Monitoreo_Febrero_2021_ovalo_miraflores.csv")
 ##############################################################################        
-    if 'Marzo AE' in options:
+    if 'Marzo AM' in options:
         st.header("Monitoreo de Marzo 2021 : Av. Enrique Meiggs")
 #gif14#########################################################################
         col1, col2, col3= st.columns(3)
